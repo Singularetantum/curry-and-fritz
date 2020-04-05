@@ -1,0 +1,14 @@
+node_modules
+static/generated
+static/**/*.html
+reports
+tmp
+.env*
+.DS_Store
+.idea
+.vscode
+*.log
+*.sublime-project
+*.sublime-workspace
+Thumbs.db
+[Dd]esktop.ini

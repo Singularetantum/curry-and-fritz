@@ -1,0 +1,23 @@
+.b-opening-hours {
+    &.is-closed {
+        border: 1px dashed #fff;
+        padding: 10px;
+
+        .open {
+            display: none;
+        }
+
+        .closed {
+            display: block;
+        }
+    }
+
+    .closed {
+        display: none;
+
+        span {
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+    }
+}

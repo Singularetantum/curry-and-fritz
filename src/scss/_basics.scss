@@ -1,0 +1,247 @@
+/**
+ * ---------------------------------------------------------------------------------------------------- #
+ *
+ * Basic Formattings
+ *
+ */
+
+html {
+    box-sizing: border-box;
+    font-size: $global-font-size;
+}
+
+// fix IE root font size calculation
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    html {
+        font-size: $global-font-size-ie;
+    }
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+[hidden] {
+    display: none !important; // stylelint-disable-line declaration-no-important
+}
+
+a {
+    color: $link-color-01;
+
+    &:visited {
+        color: $link-color-01;
+    }
+}
+
+/**
+ * Body
+ */
+
+body {
+    overflow-y: scroll;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    font-family: $base-font;
+    font-size: $base-fontsize;
+    font-weight: 400;
+    line-height: $base-lineheight;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    color: $text-color-01;
+    background: $bg-color-01;
+    flex-flow: column;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/**
+ * Headlines
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $headline-font;
+    font-weight: 300;
+    text-transform: uppercase;
+
+    > span {
+        font-weight: 900;
+    }
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 1.1em;
+}
+
+h4 {
+    margin: 0;
+}
+
+
+/**
+ * General Text Formattings
+ */
+
+b,
+strong {
+    font-weight: 700;
+}
+
+i,
+em,
+dfn {
+    font-style: italic;
+}
+
+address {
+    font-style: normal;
+}
+
+abbr {
+    border-bottom: 1px dotted $line-color-03;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    cursor: help;
+}
+
+sub,
+sup {
+    position: relative;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+sub {
+    top: 4px;
+}
+
+sup {
+    top: -6px;
+}
+
+q,
+cite,
+blockquote {
+    font-family: $blockquote-font;
+    font-style: italic;
+}
+
+pre,
+code {
+    background-color: $bg-color-04;
+}
+
+hr {
+    height: 1px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: $bg-color-03;
+}
+
+mark {
+    color: $text-color-01;
+    background-color: $bg-color-05;
+}
+
+
+/**
+ * Textselection
+ */
+
+::-moz-selection {
+    text-shadow: none;
+    color: #fff;
+    background-color: rgba($bg-color-02, .99); // rgba to adjust Chrome-Firefox differences
+}
+
+::selection {
+    text-shadow: none;
+    color: #fff;
+    background-color: rgba($bg-color-02, .99); // rgba to adjust Chrome-Firefox differences
+}
+
+
+/**
+ * Monospaced Text
+ */
+
+pre,
+code,
+kbd,
+samp,
+var {
+    font-family: $monospaced-font;
+}
+
+
+/**
+ * Images
+ */
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+/**
+ * Buttons
+ */
+
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+button {
+    @extend %btn;
+
+    overflow: visible;
+    appearance: none;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    text-transform: none;
+    background-color: transparent;
+}
+
+/**
+ * Main
+ */
+
+main {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/**
+ * Sections
+ */
+
+.sections {
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.section {
+    @include breakpoint(large) {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    width: 100%;
+}
