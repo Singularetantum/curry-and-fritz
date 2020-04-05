@@ -1,6 +1,4 @@
 node_modules
-static/generated
-static/**/*.html
 reports
 tmp
 .env*
@@ -12,3 +10,4 @@ tmp
 *.sublime-workspace
 Thumbs.db
 [Dd]esktop.ini
+*.map
