@@ -7,7 +7,7 @@ module.exports = {
         config: {
             extends: ['stylelint-config-nikita'],
             rules: {
-                // override rules here
+                'max-nesting-depth': 5,
             },
         },
     },
