@@ -1,3 +1,3 @@
 ---
-permalink: /static/index.html
+permalink: /index.html
 ---

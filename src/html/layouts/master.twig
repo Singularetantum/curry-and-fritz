@@ -28,6 +28,12 @@
         </main>
         {% include 'partials::footer.twig' %}
 
+        <script>
+            let backgroundObserver = lozad('.lozad', {
+                threshold: 0.1
+            });
+            backgroundObserver.observe();
+        </script>
         <script src="generated/main.js?cb={{ currentTimestamp }}"></script>
     </body>
 </html>
