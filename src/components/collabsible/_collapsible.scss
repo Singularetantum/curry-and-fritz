@@ -8,13 +8,13 @@
 
         .title {
             ::after {
-                transform: translateY(-50%) rotate(-180deg);
+                transform: translateY(-50%) rotate(90deg);
             }
 
             &:hover {
                 ::after {
                     @include breakpoint(medium) {
-                        transform: translateY(-50%) rotate(-180deg) scale(1.5);
+                        transform: translateY(-50%) rotate(90deg) scale(1.5);
                     }
                 }
             }
@@ -27,7 +27,7 @@
         cursor: pointer;
 
         ::after {
-            content: '\25bc';
+            content: '\25ba';
             position: absolute;
             top: 50%;
             left: 0;
