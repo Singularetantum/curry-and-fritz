@@ -22,7 +22,7 @@ export default class OpeningHours {
         const date = new Date();
         const day = date.getDay();
         const hours = date.getHours();
-        const isClosed = (day === 1 || hours < 11 || hours > 21);
+        const isClosed = (day === 1 || hours < 11 || hours > 22);
 
         this.toggleClosed(isClosed);
 
