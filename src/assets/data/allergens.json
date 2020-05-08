@@ -1,0 +1,143 @@
+{
+  "isOpen": false,
+  "style": "",
+  "currItem": {
+      "title": [],
+      "additives": [],
+      "allergens": []
+  },
+  "additives": {
+    "title": "Zutaten und Lebensmittelzusatzstoffe die allergische oder andere Unverträglichkeitsreaktionen auslösen können",
+    "items": [
+      {
+        "id": "1",
+        "title": "mit Farbstoff"
+      },
+      {
+        "id": "2",
+        "title": "mit Konservierungsstoffen"
+      },
+      {
+        "id": "2.1",
+        "title": "mit Nitritpökelsalz"
+      },
+      {
+        "id": "3",
+        "title": "mit Antioxidationsmittel"
+      },
+      {
+        "id": "4",
+        "title": "mit Geschmacksverstärker"
+      },
+      {
+        "id": "5",
+        "title": "Sulfite"
+      },
+      {
+        "id": "6",
+        "title": "Geschwärzt"
+      },
+      {
+        "id": "7",
+        "title": "Gewachst"
+      },
+      {
+        "id": "8",
+        "title": "mit Phosphat"
+      },
+      {
+        "id": "9",
+        "title": "mit Süßungsmittel(n)"
+      },
+      {
+        "id": "10",
+        "title": "enthält Koffein"
+      },
+      {
+        "id": "11",
+        "title": "enthält Chinin"
+      },
+      {
+        "id": "12",
+        "title": "genmanipuliert"
+      },
+      {
+        "id": "13",
+        "title": "enthält Säuerungsmittel"
+      },
+      {
+        "id": "14",
+        "title": "enthält Stabilisatoren"
+      },
+      {
+        "id": "15",
+        "title": "enthält Proteine"
+      }
+    ]
+  },
+  "allergens": {
+    "title": "LMIV - Allergene",
+    "items": [
+      {
+        "id": "A",
+        "title": "enthält glutenhaltige/s Getreide/-erzeugnisse"
+      },
+      {
+        "id": "B",
+        "title": "enthält Krebstiere/-erzeugnisse"
+      },
+      {
+        "id": "C",
+        "title": "enthält Ei/-erzeugnisse"
+      },
+      {
+        "id": "D",
+        "title": "enthält Fisch/-erzeugnisse"
+      },
+      {
+        "id": "E",
+        "title": "enthält Erdnüsse/-erzeugnisse"
+      },
+      {
+        "id": "F",
+        "title": "enthält Sojabohnen/-erzeugnisse"
+      },
+      {
+        "id": "G",
+        "title": "enthält Milch/-erzeugnisse (einschließlich Laktose)"
+      },
+      {
+        "id": "H",
+        "title": "enthält Schalenfrüchte/Nüsse bzw. Nusserzeugnisse"
+      },
+      {
+        "id": "I",
+        "title": "mit Konservierungsstoffen"
+      },
+      {
+        "id": "L",
+        "title": "enthält Sellerie/-erzeugnisse"
+      },
+      {
+        "id": "M",
+        "title": "enthält Senf/-erzeugnisse"
+      },
+      {
+        "id": "N",
+        "title": "enthält Sesamsamen/-erzeugnisse"
+      },
+      {
+        "id": "O",
+        "title": "enthält Schwefeldioxid/Sulphite"
+      },
+      {
+        "id": "P",
+        "title": "enthält Lupine/-nerzeugnisse"
+      },
+      {
+        "id": "R",
+        "title": "enthält Weichtiere/-erzeugnisse"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+@mixin breakpoint($name) {
+  $small: "(min-width: 0px)";
+  $medium: "(min-width: 640px)";
+  $large: "(min-width: 1024px)";
+  $xlarge: "(min-width: 1200px)";
+  $xxlarge: "(min-width: 1440px)";
+
+  @if $name == small {
+    @media #{$small} { @content; }
+  }
+  @else if $name == medium {
+    @media #{$medium} { @content; }
+  }
+  @else if $name == large {
+    @media #{$large}  { @content; }
+  }
+  @else if $name == xlarge {
+    @media #{$xlarge}  { @content; }
+  }
+  @else if $name == xxlarge {
+    @media #{$xxlarge}  { @content; }
+  }
+}

@@ -7,13 +7,13 @@
 
 html {
     box-sizing: border-box;
-    font-size: $global-font-size;
+    font-size: 62.5%;
 }
 
 // fix IE root font size calculation
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     html {
-        font-size: $global-font-size-ie;
+        font-size: 10px;
     }
 }
 
