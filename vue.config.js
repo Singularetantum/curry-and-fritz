@@ -1,4 +1,12 @@
 module.exports = {
+  chainWebpack: config => {
+    config
+    .plugin('html')
+    .tap(args => {
+      args[0].title = 'Curry & Fritz';
+      return args;
+    });
+  },
   pwa: {
     name: 'Curry & Fritz',
     short_name: 'Curry & Fritz',
