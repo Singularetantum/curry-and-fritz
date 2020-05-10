@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.cd695b4587cb44ebf1ab64e7b8808cb9.js"
+  "/precache-manifest.6e803b46392e5a8ef20e3a8e15b3294d.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "curry-and-fritz"});
