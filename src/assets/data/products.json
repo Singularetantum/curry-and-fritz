@@ -1,0 +1,2211 @@
+[
+  {
+    "id": "cat-popular-0",
+    "title": "Kiezteller",
+    "titleHtml": "Kiezteller",
+    "description": "mit gegrilltem Schweinebauch, selbstgemachter Asiasauce und einer Beilage nach Wahl",
+    "descriptionHtml": "mit gegrilltem Schweinebauch, selbstgemachter Asiasauce und einer Beilage nach Wahl",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.3",
+      "3",
+      "4",
+      "8",
+      "9",
+      "13"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "H",
+      "M"
+    ],
+    "options": [],
+    "price": "10,90"
+  },
+  {
+    "id": "cat-popular-1",
+    "title": "Pizza Tonno [Ø 28cm]",
+    "titleHtml": "Pizza Tonno [Ø 28cm]",
+    "description": "mit Thunfisch und Zwiebeln",
+    "descriptionHtml": "mit Thunfisch und Zwiebeln",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "D",
+      "G"
+    ],
+    "options": [],
+    "price": "8,40"
+  },
+  {
+    "id": "cat-popular-2",
+    "title": "Fritz 3",
+    "titleHtml": "Fritz 3",
+    "description": "• 2 Currywürste• Pommes frites• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "descriptionHtml": "• 2 Currywürste<br>• Pommes frites<br>• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.1",
+      "3",
+      "8"
+    ],
+    "allergens": [],
+    "options": [],
+    "price": "7,90"
+  },
+  {
+    "id": "cat1-0",
+    "title": "Chicken Wings Menü",
+    "titleHtml": "Chicken Wings Menü",
+    "description": "• 6 Chicken Wings• Pommes frites• 1 Dip nach Wahl (Aioli, Creme Fraiche, Ketchup, Mayonnaise, Barbecue, Mango, Süß-Sauer)",
+    "descriptionHtml": "• 6 Chicken Wings<br>• Pommes frites<br>• 1 Dip nach Wahl (Aioli, Creme Fraiche, Ketchup, Mayonnaise, Barbecue, Mango, Süß-Sauer)",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.1",
+      "3"
+    ],
+    "allergens": [
+      "A"
+    ],
+    "options": [
+      {
+        "title": "Ihr Dip",
+        "isOpen": false,
+        "items": [
+          "cat11-7",
+          "cat11-8",
+          "cat11-9",
+          "cat11-10",
+          "cat11-11",
+          "cat11-12",
+          "cat11-13"
+        ]
+      }
+    ],
+    "price": "7,60"
+  },
+  {
+    "id": "cat1-1",
+    "title": "Fritz 1",
+    "titleHtml": "Fritz 1",
+    "description": "• 2 Currywürste• 1 Brötchen",
+    "descriptionHtml": "• 2 Currywürste<br>• 1 Brötchen",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.1",
+      "3",
+      "8"
+    ],
+    "allergens": [
+      "A"
+    ],
+    "options": [],
+    "price": "5,60"
+  },
+  {
+    "id": "cat1-2",
+    "title": "Fritz 2",
+    "titleHtml": "Fritz 2",
+    "description": "• 2 Currywürste• 1 Brötchen• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "descriptionHtml": "• 2 Currywürste<br>• 1 Brötchen<br>• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.1",
+      "3",
+      "8"
+    ],
+    "allergens": [
+      "A"
+    ],
+    "options": [],
+    "price": "6,60"
+  },
+  {
+    "id": "cat1-3",
+    "title": "Fritz 3",
+    "titleHtml": "Fritz 3",
+    "description": "• 2 Currywürste• Pommes frites• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "descriptionHtml": "• 2 Currywürste<br>• Pommes frites<br>• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.1",
+      "3",
+      "8"
+    ],
+    "allergens": [],
+    "options": [],
+    "price": "7,90"
+  },
+  {
+    "id": "cat1-4",
+    "title": "Fritz 4",
+    "titleHtml": "Fritz 4",
+    "description": "• 2 Currywürste• Pommes frites",
+    "descriptionHtml": "• 2 Currywürste<br>• Pommes frites",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.1",
+      "3",
+      "8"
+    ],
+    "allergens": [
+      "A"
+    ],
+    "options": [],
+    "price": "6,90"
+  },
+  {
+    "id": "cat1-5",
+    "title": "Fritz 5",
+    "titleHtml": "Fritz 5",
+    "description": "• 1 Currywurst• Pommes frites• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "descriptionHtml": "• 1 Currywurst<br>• Pommes frites<br>• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.1",
+      "3",
+      "8"
+    ],
+    "allergens": [
+      "A"
+    ],
+    "options": [],
+    "price": "7,30"
+  },
+  {
+    "id": "cat2-0",
+    "title": "Mini Frühlingsrollen (6 Stück, vegetarisch)",
+    "titleHtml": "Mini Frühlingsrollen (6 Stück, vegetarisch)",
+    "description": "mit Gemüse und einem Dip nach Wahl",
+    "descriptionHtml": "mit Gemüse und einem Dip nach Wahl",
+    "additionalInformation": "",
+    "additives": [
+      "4"
+    ],
+    "allergens": [
+      "A"
+    ],
+    "options": [
+      {
+        "title": "Ihr Dip",
+        "isOpen": false,
+        "items": [
+          "cat11-7",
+          "cat11-8",
+          "cat11-9",
+          "cat11-10",
+          "cat11-11",
+          "cat11-12",
+          "cat11-13"
+        ]
+      }
+    ],
+    "price": "3,30"
+  },
+  {
+    "id": "cat2-1",
+    "title": "Chicken Nuggets",
+    "titleHtml": "Chicken Nuggets",
+    "description": "mit einem Dip nach Wahl",
+    "descriptionHtml": "mit einem Dip nach Wahl",
+    "additionalInformation": "",
+    "additives": [],
+    "allergens": [
+      "A",
+      "C",
+      "G"
+    ],
+    "options": [
+      {
+        "title": "Ihr Dip",
+        "isOpen": false,
+        "items": [
+          "cat11-7",
+          "cat11-8",
+          "cat11-9",
+          "cat11-10",
+          "cat11-11",
+          "cat11-12",
+          "cat11-13"
+        ]
+      }
+    ],
+    "price": "4,90"
+  },
+  {
+    "id": "cat2-2",
+    "title": "Chicken Wings (6 Stück)",
+    "titleHtml": "Chicken Wings (6 Stück)",
+    "description": "mit einem Dip nach Wahl",
+    "descriptionHtml": "mit einem Dip nach Wahl",
+    "additionalInformation": "",
+    "additives": [],
+    "allergens": [
+      "A",
+      "C"
+    ],
+    "options": [
+      {
+        "title": "Ihr Dip",
+        "isOpen": false,
+        "items": [
+          "cat11-7",
+          "cat11-8",
+          "cat11-9",
+          "cat11-10",
+          "cat11-11",
+          "cat11-12",
+          "cat11-13"
+        ]
+      }
+    ],
+    "price": "5,30"
+  },
+  {
+    "id": "cat2-3",
+    "title": "Sommerrollen Garnelen (2 Stück)",
+    "titleHtml": "Sommerrollen Garnelen (2 Stück)",
+    "description": "Reispapier gefüllt mit Reisnudeln, verschiedenem Gemüse, Sojasprossen, Asiasauce und Garnelen",
+    "descriptionHtml": "Reispapier gefüllt mit Reisnudeln, verschiedenem Gemüse, Sojasprossen, Asiasauce und Garnelen",
+    "additionalInformation": "",
+    "additives": [],
+    "allergens": [
+      "B",
+      "C"
+    ],
+    "options": [],
+    "price": "5,40"
+  },
+  {
+    "id": "cat2-4",
+    "title": "Sommerrollen Tofu (2 Stück)",
+    "titleHtml": "Sommerrollen Tofu (2 Stück)",
+    "description": "Reispapier gefüllt mit Reisnudeln, verschiedenem Gemüse, Sojasprossen, Asiasauce und Tofu",
+    "descriptionHtml": "Reispapier gefüllt mit Reisnudeln, verschiedenem Gemüse, Sojasprossen, Asiasauce und Tofu",
+    "additionalInformation": "",
+    "additives": [],
+    "allergens": [
+      "D",
+      "C",
+      "A"
+    ],
+    "options": [],
+    "price": "4,40"
+  },
+  {
+    "id": "cat2-5",
+    "title": "Sommerrollen Chicken (2 Stück)",
+    "titleHtml": "Sommerrollen Chicken (2 Stück)",
+    "description": "Reispapier gefüllt mit Reisnudeln, verschiedenem Gemüse, Sojasprossen, Asiasauce und Chicken",
+    "descriptionHtml": "Reispapier gefüllt mit Reisnudeln, verschiedenem Gemüse, Sojasprossen, Asiasauce und Chicken",
+    "additionalInformation": "",
+    "additives": [],
+    "allergens": [
+      "G",
+      "A"
+    ],
+    "options": [],
+    "price": "4,40"
+  },
+  {
+    "id": "cat3-0",
+    "title": "Gemischter Salat",
+    "titleHtml": "Gemischter Salat",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "G"
+    ],
+    "options": [],
+    "price": "5,40"
+  },
+  {
+    "id": "cat3-1",
+    "title": "Gemischter Salat mit Thunfisch, Ei und Zwiebelringen",
+    "titleHtml": "Gemischter Salat mit Thunfisch, Ei und Zwiebelringen",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "D",
+      "G"
+    ],
+    "options": [],
+    "price": "6,30"
+  },
+  {
+    "id": "cat3-2",
+    "title": "Gemischter Salat mit Hähnchenbruststreifen und Ananas",
+    "titleHtml": "Gemischter Salat mit Hähnchenbruststreifen und Ananas",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "2",
+      "4",
+      "9"
+    ],
+    "allergens": [
+      "G"
+    ],
+    "options": [],
+    "price": "6,30"
+  },
+  {
+    "id": "cat3-3",
+    "title": "Gemischter Salat mit Champignons, Rucola und Parmesan",
+    "titleHtml": "Gemischter Salat mit Champignons, Rucola und Parmesan",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "G"
+    ],
+    "options": [],
+    "price": "6,40"
+  },
+  {
+    "id": "cat3-4",
+    "title": "Gemischter Salat mit Hirtenkäse und Oliven",
+    "titleHtml": "Gemischter Salat mit Hirtenkäse und Oliven",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "6"
+    ],
+    "allergens": [
+      "G"
+    ],
+    "options": [],
+    "price": "6,30"
+  },
+  {
+    "id": "cat4-0",
+    "title": "Pizza Margherita",
+    "titleHtml": "Pizza Margherita",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G"
+    ],
+    "options": [],
+    "price": "5,30"
+  },
+  {
+    "id": "cat4-1",
+    "title": "Pizza Salami",
+    "titleHtml": "Pizza Salami",
+    "description": "mit Salami",
+    "descriptionHtml": "mit Salami",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "allergens": [
+      "A",
+      "G"
+    ],
+    "options": [],
+    "price": "6,20"
+  },
+  {
+    "id": "cat4-2",
+    "title": "Pizza Funghi",
+    "titleHtml": "Pizza Funghi",
+    "description": "mit frischen Champignons",
+    "descriptionHtml": "mit frischen Champignons",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G"
+    ],
+    "options": [],
+    "price": "5,70"
+  },
+  {
+    "id": "cat4-3",
+    "title": "Pizza Schinken",
+    "titleHtml": "Pizza Schinken",
+    "description": "mit Formvorderschinken",
+    "descriptionHtml": "mit Formvorderschinken",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.3",
+      "3",
+      "4",
+      "8"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G"
+    ],
+    "options": [],
+    "price": "6,20"
+  },
+  {
+    "id": "cat4-4",
+    "title": "Pizza Hawaii",
+    "titleHtml": "Pizza Hawaii",
+    "description": "mit gekochtem Formvorderschinken und Ananas",
+    "descriptionHtml": "mit gekochtem Formvorderschinken und Ananas",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.1",
+      "3",
+      "4",
+      "9",
+      "14"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G"
+    ],
+    "options": [],
+    "price": "6,90"
+  },
+  {
+    "id": "cat4-5",
+    "title": "Pizza Bacon",
+    "titleHtml": "Pizza Bacon",
+    "description": "mit knusprigem Bacon, Ei und Champignons",
+    "descriptionHtml": "mit knusprigem Bacon, Ei und Champignons",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "9"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G"
+    ],
+    "options": [],
+    "price": "7,20"
+  },
+  {
+    "id": "cat4-6",
+    "title": "Pizza Mista",
+    "titleHtml": "Pizza Mista",
+    "description": "mit gekochtem Formvorderschinken, Salami, Champignons und Peperoni",
+    "descriptionHtml": "mit gekochtem Formvorderschinken, Salami, Champignons und Peperoni",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.1",
+      "3",
+      "4",
+      "9",
+      "14"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G"
+    ],
+    "options": [],
+    "price": "6,90"
+  },
+  {
+    "id": "cat4-7",
+    "title": "Pizza Mozzarella",
+    "titleHtml": "Pizza Mozzarella",
+    "description": "mit Mozzarella und frischen Tomaten",
+    "descriptionHtml": "mit Mozzarella und frischen Tomaten",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G"
+    ],
+    "options": [],
+    "price": "7,20"
+  },
+  {
+    "id": "cat4-8",
+    "title": "Pizza Tonno",
+    "titleHtml": "Pizza Tonno",
+    "description": "mit Thunfisch und Zwiebeln",
+    "descriptionHtml": "mit Thunfisch und Zwiebeln",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "D",
+      "G"
+    ],
+    "options": [],
+    "price": "6,90"
+  },
+  {
+    "id": "cat4-9",
+    "title": "Pizza Sucuk",
+    "titleHtml": "Pizza Sucuk",
+    "description": "mit Sucuk, Zwiebeln und Fetakäse",
+    "descriptionHtml": "mit Sucuk, Zwiebeln und Fetakäse",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G"
+    ],
+    "options": [],
+    "price": "6,90"
+  },
+  {
+    "id": "cat4-10",
+    "title": "Pizza Chicken",
+    "titleHtml": "Pizza Chicken",
+    "description": "mit Hähnchenfleisch, Paprika und Champignons",
+    "descriptionHtml": "mit Hähnchenfleisch, Paprika und Champignons",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G"
+    ],
+    "options": [],
+    "price": "7,30"
+  },
+  {
+    "id": "cat4-11",
+    "title": "Pizza Bolognese",
+    "titleHtml": "Pizza Bolognese",
+    "description": "mit Bolognese, Zwiebeln und Knoblauch",
+    "descriptionHtml": "mit Bolognese, Zwiebeln und Knoblauch",
+    "additionalInformation": "",
+    "additives": [
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "G"
+    ],
+    "options": [],
+    "price": "6,60"
+  },
+  {
+    "id": "cat4-12",
+    "title": "Pizza Würstchen",
+    "titleHtml": "Pizza Würstchen",
+    "description": "mit Würstchen, Gewürzgurken Barbecuesauce und Röstzwiebeln",
+    "descriptionHtml": "mit Würstchen, Gewürzgurken Barbecuesauce und Röstzwiebeln",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.3",
+      "3",
+      "4",
+      "8"
+    ],
+    "allergens": [
+      "A",
+      "G",
+      "L",
+      "M"
+    ],
+    "options": [],
+    "price": "7,20"
+  },
+  {
+    "id": "cat4-13",
+    "title": "Calzone",
+    "titleHtml": "Calzone",
+    "description": "gefüllte Teigtasche mit Form- vorderschinken, Salami, Champignons und Paprika",
+    "descriptionHtml": "gefüllte Teigtasche mit Form- vorderschinken, Salami, Champignons und Paprika",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "3",
+      "8"
+    ],
+    "allergens": [
+      "A",
+      "G"
+    ],
+    "options": [],
+    "price": "7,80"
+  },
+  {
+    "id": "cat4-14",
+    "title": "Pizza Rustica (vegetarisch)",
+    "titleHtml": "Pizza Rustica (vegetarisch)",
+    "description": "mit Feta, Zwiebeln und Tomaten",
+    "descriptionHtml": "mit Feta, Zwiebeln und Tomaten",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G"
+    ],
+    "options": [],
+    "price": "6,70"
+  },
+  {
+    "id": "cat4-15",
+    "title": "Pizza Veggie",
+    "titleHtml": "Pizza Veggie",
+    "description": "mit Broccoli Champignons, Mais und Paprika",
+    "descriptionHtml": "mit Broccoli Champignons, Mais und Paprika",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G"
+    ],
+    "options": [],
+    "price": "6,20"
+  },
+  {
+    "id": "cat4-16",
+    "title": "Pizza Oriental (vegetarisch)",
+    "titleHtml": "Pizza Oriental (vegetarisch)",
+    "description": "mit Zucchini, Aubergine, Peperoni, Olive, Fetak und Zwiebeln",
+    "descriptionHtml": "mit Zucchini, Aubergine, Peperoni, Olive, Fetak und Zwiebeln",
+    "additionalInformation": "",
+    "additives": [
+      "2",
+      "6",
+      "9"
+    ],
+    "allergens": [
+      "A",
+      "G"
+    ],
+    "options": [],
+    "price": "7,10"
+  },
+  {
+    "id": "cat4-17",
+    "title": "Pizza Shrimps",
+    "titleHtml": "Pizza Shrimps",
+    "description": "mit Shrimps, Zwiebeln und Knoblauchsauce",
+    "descriptionHtml": "mit Shrimps, Zwiebeln und Knoblauchsauce",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "G"
+    ],
+    "options": [],
+    "price": "9,20"
+  },
+  {
+    "id": "cat5-0",
+    "title": "Pizzaröllchen Margherita",
+    "titleHtml": "Pizzaröllchen Margherita",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G"
+    ],
+    "options": [
+      {
+        "title": "Ihr Dip",
+        "isOpen": false,
+        "items": [
+          "cat11-7",
+          "cat11-8",
+          "cat11-9",
+          "cat11-10",
+          "cat11-11",
+          "cat11-12",
+          "cat11-13"
+        ]
+      }
+    ],
+    "price": "4,90"
+  },
+  {
+    "id": "cat5-1",
+    "title": "Pizzaröllchen Salami",
+    "titleHtml": "Pizzaröllchen Salami",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "allergens": [
+      "A",
+      "G"
+    ],
+    "options": [
+      {
+        "title": "Ihr Dip",
+        "isOpen": false,
+        "items": [
+          "cat11-7",
+          "cat11-8",
+          "cat11-9",
+          "cat11-10",
+          "cat11-11",
+          "cat11-12",
+          "cat11-13"
+        ]
+      }
+    ],
+    "price": "5,90"
+  },
+  {
+    "id": "cat5-2",
+    "title": "Pizzaröllchen Schinken",
+    "titleHtml": "Pizzaröllchen Schinken",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "3",
+      "8"
+    ],
+    "allergens": [
+      "A",
+      "G"
+    ],
+    "options": [
+      {
+        "title": "Ihr Dip",
+        "isOpen": false,
+        "items": [
+          "cat11-7",
+          "cat11-8",
+          "cat11-9",
+          "cat11-10",
+          "cat11-11",
+          "cat11-12",
+          "cat11-13"
+        ]
+      }
+    ],
+    "price": "5,90"
+  },
+  {
+    "id": "cat5-3",
+    "title": "Pizzaröllchen Würstchen",
+    "titleHtml": "Pizzaröllchen Würstchen",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "G"
+    ],
+    "options": [
+      {
+        "title": "Ihr Dip",
+        "isOpen": false,
+        "items": [
+          "cat11-7",
+          "cat11-8",
+          "cat11-9",
+          "cat11-10",
+          "cat11-11",
+          "cat11-12",
+          "cat11-13"
+        ]
+      }
+    ],
+    "price": "5,90"
+  },
+  {
+    "id": "cat5-4",
+    "title": "Pizzaröllchen Sucuk",
+    "titleHtml": "Pizzaröllchen Sucuk",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "allergens": [
+      "A",
+      "G"
+    ],
+    "options": [
+      {
+        "title": "Ihr Dip",
+        "isOpen": false,
+        "items": [
+          "cat11-7",
+          "cat11-8",
+          "cat11-9",
+          "cat11-10",
+          "cat11-11",
+          "cat11-12",
+          "cat11-13"
+        ]
+      }
+    ],
+    "price": "5,49"
+  },
+  {
+    "id": "cat6-0",
+    "title": "Pasta Napoli",
+    "titleHtml": "Pasta Napoli",
+    "description": "mit Tomatensauce",
+    "descriptionHtml": "mit Tomatensauce",
+    "additionalInformation": "",
+    "additives": [],
+    "allergens": [
+      "G",
+      "A"
+    ],
+    "options": [],
+    "price": "6,10"
+  },
+  {
+    "id": "cat6-1",
+    "title": "Pasta Bolognese",
+    "titleHtml": "Pasta Bolognese",
+    "description": "mit Tomatensauce und gemischtem Hackfleisch",
+    "descriptionHtml": "mit Tomatensauce und gemischtem Hackfleisch",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "M"
+    ],
+    "options": [],
+    "price": "6,80"
+  },
+  {
+    "id": "cat6-2",
+    "title": "Pasta Champignons",
+    "titleHtml": "Pasta Champignons",
+    "description": "mit Sahnesauce und Champignons",
+    "descriptionHtml": "mit Sahnesauce und Champignons",
+    "additionalInformation": "",
+    "additives": [],
+    "allergens": [
+      "G",
+      "A"
+    ],
+    "options": [],
+    "price": "6,40"
+  },
+  {
+    "id": "cat6-3",
+    "title": "Pasta Schinken",
+    "titleHtml": "Pasta Schinken",
+    "description": "mit Sahnesauce und Schinken",
+    "descriptionHtml": "mit Sahnesauce und Schinken",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "3",
+      "8"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G"
+    ],
+    "options": [],
+    "price": "6,70"
+  },
+  {
+    "id": "cat6-4",
+    "title": "Pasta Chicken",
+    "titleHtml": "Pasta Chicken",
+    "description": "mit Hähnchenbruststreifen, Sahnesauce, Champignons und Zwiebeln",
+    "descriptionHtml": "mit Hähnchenbruststreifen, Sahnesauce, Champignons und Zwiebeln",
+    "additionalInformation": "",
+    "additives": [
+      "8"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G"
+    ],
+    "options": [],
+    "price": "7,20"
+  },
+  {
+    "id": "cat7-0",
+    "title": "Hamburger",
+    "titleHtml": "Hamburger",
+    "description": "mit einem Burgerpatty aus Angusrind",
+    "descriptionHtml": "mit einem Burgerpatty aus Angusrind",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "M",
+      "N"
+    ],
+    "options": [],
+    "price": "6,30"
+  },
+  {
+    "id": "cat7-1",
+    "title": "Cheeseburger",
+    "titleHtml": "Cheeseburger",
+    "description": "mit einem Burgerpatty aus Angusrind und 2 Scheiben Käse",
+    "descriptionHtml": "mit einem Burgerpatty aus Angusrind und 2 Scheiben Käse",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "M",
+      "N"
+    ],
+    "options": [],
+    "price": "6,80"
+  },
+  {
+    "id": "cat7-2",
+    "title": "Hawaiiburger",
+    "titleHtml": "Hawaiiburger",
+    "description": "mit einem Burgerpatty aus Angusrind, Ananas und Bacon",
+    "descriptionHtml": "mit einem Burgerpatty aus Angusrind, Ananas und Bacon",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.3",
+      "4",
+      "9"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "N"
+    ],
+    "options": [],
+    "price": "7,40"
+  },
+  {
+    "id": "cat7-3",
+    "title": "Barbecueburger",
+    "titleHtml": "Barbecueburger",
+    "description": "mit einem Burgerpatty aus Angusrind und 2 Scheiben Bacon",
+    "descriptionHtml": "mit einem Burgerpatty aus Angusrind und 2 Scheiben Bacon",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.1",
+      "3",
+      "8",
+      "9",
+      "13"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "M",
+      "N"
+    ],
+    "options": [],
+    "price": "7,40"
+  },
+  {
+    "id": "cat7-4",
+    "title": "Fritzburger",
+    "titleHtml": "Fritzburger",
+    "description": "mit einem Rusticabrötchen, mit einem Burgerpatty aus Angusrind, einer Scheibe Bacon, Coleslaw und 2 Scheiben Käse",
+    "descriptionHtml": "mit einem Rusticabrötchen, mit einem Burgerpatty aus Angusrind, einer Scheibe Bacon, Coleslaw und 2 Scheiben Käse",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.1",
+      "3",
+      "8",
+      "9",
+      "13"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "M",
+      "N"
+    ],
+    "options": [],
+    "price": "8,20"
+  },
+  {
+    "id": "cat7-5",
+    "title": "Chiliburger (scharf)",
+    "titleHtml": "Chiliburger (scharf)",
+    "description": "mit einem Burgerpatty aus Angusrind, einer Scheibe Käse und asiatischem Chili",
+    "descriptionHtml": "mit einem Burgerpatty aus Angusrind, einer Scheibe Käse und asiatischem Chili",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "4"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "M",
+      "N"
+    ],
+    "options": [],
+    "price": "7,10"
+  },
+  {
+    "id": "cat7-6",
+    "title": "Baconburger",
+    "titleHtml": "Baconburger",
+    "description": "mit einem Burgerpatty aus Angusrind, 4 Scheiben Bacon und einer Scheibe Käse",
+    "descriptionHtml": "mit einem Burgerpatty aus Angusrind, 4 Scheiben Bacon und einer Scheibe Käse",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.1",
+      "3",
+      "8",
+      "9",
+      "13"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "M"
+    ],
+    "options": [],
+    "price": "7,40"
+  },
+  {
+    "id": "cat7-7",
+    "title": "Chickenburger",
+    "titleHtml": "Chickenburger",
+    "description": "mit einem Rusticabrötchen und einer Scheibe Käse",
+    "descriptionHtml": "mit einem Rusticabrötchen und einer Scheibe Käse",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.1",
+      "4"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "N"
+    ],
+    "options": [],
+    "price": "7,90"
+  },
+  {
+    "id": "cat7-8",
+    "title": "Grill Burger",
+    "titleHtml": "Grill Burger",
+    "description": "mit gegrilltem Schweinebauch, Coleslaw und selbstgemachter Asiasauce",
+    "descriptionHtml": "mit gegrilltem Schweinebauch, Coleslaw und selbstgemachter Asiasauce",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.3",
+      "3",
+      "8",
+      "9",
+      "13"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "H",
+      "M"
+    ],
+    "options": [],
+    "price": "7,50"
+  },
+  {
+    "id": "cat7-9",
+    "title": "Tofu Burger",
+    "titleHtml": "Tofu Burger",
+    "description": "mit gegrilltem Tofu, frischem Salat und selbstgemachter Asiasauce",
+    "descriptionHtml": "mit gegrilltem Tofu, frischem Salat und selbstgemachter Asiasauce",
+    "additionalInformation": "",
+    "additives": [
+      "1"
+    ],
+    "allergens": [
+      "A",
+      "F",
+      "H"
+    ],
+    "options": [],
+    "price": "7,90"
+  },
+  {
+    "id": "cat7-10",
+    "title": "Halloumi Burger",
+    "titleHtml": "Halloumi Burger",
+    "description": "mit Sesambrötchen und Halloumi",
+    "descriptionHtml": "mit Sesambrötchen und Halloumi",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "M",
+      "N"
+    ],
+    "options": [],
+    "price": "6,80"
+  },
+  {
+    "id": "cat8-0",
+    "title": "Hamburger Menü",
+    "titleHtml": "Hamburger Menü",
+    "description": "• 1 Hamburger• Beilage nach Wahl• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "descriptionHtml": "• 1 Hamburger<br>• Beilage nach Wahl<br>• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "M",
+      "N"
+    ],
+    "options": [],
+    "price": "10,20"
+  },
+  {
+    "id": "cat8-1",
+    "title": "Cheeseburger Menü",
+    "titleHtml": "Cheeseburger Menü",
+    "description": "• 1 Cheeseburger• Beilage nach Wahl• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "descriptionHtml": "• 1 Cheeseburger<br>• Beilage nach Wahl<br>• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "M",
+      "N"
+    ],
+    "options": [],
+    "price": "10,70"
+  },
+  {
+    "id": "cat8-2",
+    "title": "Hawaiiburger Menü",
+    "titleHtml": "Hawaiiburger Menü",
+    "description": "• 1 Hawaiiburger• Beilage nach Wahl• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "descriptionHtml": "• 1 Hawaiiburger<br>• Beilage nach Wahl<br>• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.3",
+      "4",
+      "9"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "N"
+    ],
+    "options": [],
+    "price": "11,30"
+  },
+  {
+    "id": "cat8-3",
+    "title": "Barbecueburger Menü",
+    "titleHtml": "Barbecueburger Menü",
+    "description": "• 1 Barbecueburger• Beilage nach Wahl• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "descriptionHtml": "• 1 Barbecueburger<br>• Beilage nach Wahl<br>• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.1",
+      "3",
+      "8",
+      "9",
+      "13"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "M",
+      "N"
+    ],
+    "options": [],
+    "price": "11,30"
+  },
+  {
+    "id": "cat8-4",
+    "title": "Fritzburger Menü",
+    "titleHtml": "Fritzburger Menü",
+    "description": "• 1 Fritzburger• Beilage nach Wahl• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "descriptionHtml": "• 1 Fritzburger<br>• Beilage nach Wahl<br>• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.1",
+      "3",
+      "8",
+      "9",
+      "13"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "M",
+      "N"
+    ],
+    "options": [],
+    "price": "12,10"
+  },
+  {
+    "id": "cat8-5",
+    "title": "Chiliburger Menü",
+    "titleHtml": "Chiliburger Menü",
+    "description": "• 1 Chiliburger (scharf)• Beilage nach Wahl• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "descriptionHtml": "• 1 Chiliburger (scharf)<br>• Beilage nach Wahl<br>• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "4"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "M",
+      "N"
+    ],
+    "options": [],
+    "price": "11,00"
+  },
+  {
+    "id": "cat8-6",
+    "title": "Baconburger Menü",
+    "titleHtml": "Baconburger Menü",
+    "description": "• 1 Baconburger• Beilage nach Wahl• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "descriptionHtml": "• 1 Baconburger<br>• Beilage nach Wahl<br>• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.1",
+      "3",
+      "8",
+      "9",
+      "13"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "M"
+    ],
+    "options": [],
+    "price": "11,30"
+  },
+  {
+    "id": "cat8-7",
+    "title": "Chickenburger Menü",
+    "titleHtml": "Chickenburger Menü",
+    "description": "• 1 Chickenburger• Beilage nach Wahl• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "descriptionHtml": "• 1 Chickenburger<br>• Beilage nach Wahl<br>• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.1",
+      "4"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "N"
+    ],
+    "options": [],
+    "price": "11,80"
+  },
+  {
+    "id": "cat8-8",
+    "title": "Grill Burger Menü",
+    "titleHtml": "Grill Burger Menü",
+    "description": "• 1 Grill Burger• Beilage nach Wahl• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "descriptionHtml": "• 1 Grill Burger<br>• Beilage nach Wahl<br>• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.3",
+      "3",
+      "8",
+      "9",
+      "13"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "H",
+      "M"
+    ],
+    "options": [],
+    "price": "11,40"
+  },
+  {
+    "id": "cat8-9",
+    "title": "Tofu Burger Menü",
+    "titleHtml": "Tofu Burger Menü",
+    "description": "• 1 Tofu Burger• Beilage nach Wahl• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "descriptionHtml": "• 1 Tofu Burger<br>• Beilage nach Wahl<br>• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "additionalInformation": "",
+    "additives": [
+      "1"
+    ],
+    "allergens": [
+      "A",
+      "F",
+      "H"
+    ],
+    "options": [],
+    "price": "11,80"
+  },
+  {
+    "id": "cat8-10",
+    "title": "Halloumi Burger Menü",
+    "titleHtml": "Halloumi Burger Menü",
+    "description": "• 1 Halloumi Burger• Beilage nach Wahl• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "descriptionHtml": "• 1 Halloumi Burger<br>• Beilage nach Wahl<br>• 1 Getränk 0,33l nach Wahl (Coca Cola, Fanta, Sprite)",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "M",
+      "N"
+    ],
+    "options": [],
+    "price": "10,70"
+  },
+  {
+    "id": "cat9-0",
+    "title": "Hot Dog",
+    "titleHtml": "Hot Dog",
+    "description": "mit einem Hotdog-Brötchen, Remoulade, Röstzwiebeln, rohen Zwiebeln und Gewürzgurken",
+    "descriptionHtml": "mit einem Hotdog-Brötchen, Remoulade, Röstzwiebeln, rohen Zwiebeln und Gewürzgurken",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "M"
+    ],
+    "options": [],
+    "price": "3,90"
+  },
+  {
+    "id": "cat9-1",
+    "title": "Ketwurst",
+    "titleHtml": "Ketwurst",
+    "description": "mit einem originalen DDR Brötchen und Ketchup",
+    "descriptionHtml": "mit einem originalen DDR Brötchen und Ketchup",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "9",
+      "13"
+    ],
+    "allergens": [
+      "A"
+    ],
+    "options": [],
+    "price": "3,90"
+  },
+  {
+    "id": "cat9-2",
+    "title": "Currywurst",
+    "titleHtml": "Currywurst",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "8"
+    ],
+    "allergens": [],
+    "options": [],
+    "price": "3,90"
+  },
+  {
+    "id": "cat9-3",
+    "title": "Curryboulette",
+    "titleHtml": "Curryboulette",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "8"
+    ],
+    "allergens": [
+      "A",
+      "C"
+    ],
+    "options": [],
+    "price": "4,20"
+  },
+  {
+    "id": "cat9-4",
+    "title": "Asia Sandwich",
+    "titleHtml": "Asia Sandwich",
+    "description": "mit gegrilltem Schweinebauch Coleslaw und selbstgemachter Asiasauce",
+    "descriptionHtml": "mit gegrilltem Schweinebauch Coleslaw und selbstgemachter Asiasauce",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.3",
+      "3",
+      "8",
+      "9",
+      "13"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "H",
+      "M"
+    ],
+    "options": [],
+    "price": "5,90"
+  },
+  {
+    "id": "cat9-5",
+    "title": "Veggie Currywurst",
+    "titleHtml": "Veggie Currywurst",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.3",
+      "4",
+      "8"
+    ],
+    "allergens": [
+      "A",
+      "F"
+    ],
+    "options": [],
+    "price": "3,90"
+  },
+  {
+    "id": "cat10-0",
+    "title": "Nackensteak (200g)",
+    "titleHtml": "Nackensteak (200g)",
+    "description": "vom Schwein",
+    "descriptionHtml": "vom Schwein",
+    "additionalInformation": "",
+    "additives": [
+      "2",
+      "2.1",
+      "3",
+      "4"
+    ],
+    "allergens": [],
+    "options": [],
+    "price": "8,40"
+  },
+  {
+    "id": "cat10-1",
+    "title": "Hühnerbrust (200g)",
+    "titleHtml": "Hühnerbrust (200g)",
+    "description": "vom Huhn",
+    "descriptionHtml": "vom Huhn",
+    "additionalInformation": "",
+    "additives": [
+      "2",
+      "2.1",
+      "3",
+      "4"
+    ],
+    "allergens": [],
+    "options": [],
+    "price": "7,40"
+  },
+  {
+    "id": "cat10-2",
+    "title": "Fleischspieß (150g)",
+    "titleHtml": "Fleischspieß (150g)",
+    "description": "vom Schwein, mit Paprika und Zwiebeln",
+    "descriptionHtml": "vom Schwein, mit Paprika und Zwiebeln",
+    "additionalInformation": "",
+    "additives": [
+      "2",
+      "2.1",
+      "3",
+      "4"
+    ],
+    "allergens": [],
+    "options": [],
+    "price": "6,40"
+  },
+  {
+    "id": "cat10-3",
+    "title": "Mixed Grillplatte (360g)",
+    "titleHtml": "Mixed Grillplatte (360g)",
+    "description": "• 1 Nackensteak• 1 Rumpsteak• 1 Hühnerbrust• Pommes frites",
+    "descriptionHtml": "• 1 Nackensteak<br>• 1 Rumpsteak<br>• 1 Hühnerbrust<br>• Pommes frites",
+    "additionalInformation": "",
+    "additives": [],
+    "allergens": [
+      "C",
+      "F",
+      "G",
+      "L"
+    ],
+    "options": [],
+    "price": "15,00"
+  },
+  {
+    "id": "cat10-4",
+    "title": "Kiezteller",
+    "titleHtml": "Kiezteller",
+    "description": "mit gegrilltem Schweinebauch, selbstgemachter Asiasauce und einer Beilage nach Wahl",
+    "descriptionHtml": "mit gegrilltem Schweinebauch, selbstgemachter Asiasauce und einer Beilage nach Wahl",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "2.3",
+      "3",
+      "4",
+      "8",
+      "9",
+      "13"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "H",
+      "M"
+    ],
+    "options": [],
+    "price": "10,90"
+  },
+  {
+    "id": "cat11-0",
+    "title": "Pommes frites",
+    "titleHtml": "Pommes frites",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [],
+    "allergens": [
+      "A"
+    ],
+    "options": [],
+    "price": "3,40"
+  },
+  {
+    "id": "cat11-1",
+    "title": "Süßkartoffel Pommes",
+    "titleHtml": "Süßkartoffel Pommes",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "A"
+    ],
+    "options": [],
+    "price": "4,90"
+  },
+  {
+    "id": "cat11-2",
+    "title": "Beilagensalat",
+    "titleHtml": "Beilagensalat",
+    "description": "mit Tomaten, Gurken, Rucola und Lolo Rosso",
+    "descriptionHtml": "mit Tomaten, Gurken, Rucola und Lolo Rosso",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2"
+    ],
+    "allergens": [
+      "G"
+    ],
+    "options": [],
+    "price": "3,40"
+  },
+  {
+    "id": "cat11-3",
+    "title": "Brötchen",
+    "titleHtml": "Brötchen",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [],
+    "allergens": [
+      "A"
+    ],
+    "options": [],
+    "price": "0,40"
+  },
+  {
+    "id": "cat11-4",
+    "title": "Coleslaw",
+    "titleHtml": "Coleslaw",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "3",
+      "9",
+      "13"
+    ],
+    "allergens": [
+      "A",
+      "C",
+      "G",
+      "M"
+    ],
+    "options": [],
+    "price": "2,80"
+  },
+  {
+    "id": "cat11-5",
+    "title": "Folienkartoffel",
+    "titleHtml": "Folienkartoffel",
+    "description": "mit einem Dip nach Wahl",
+    "descriptionHtml": "mit einem Dip nach Wahl",
+    "additionalInformation": "",
+    "additives": [],
+    "allergens": [
+      "G"
+    ],
+    "options": [
+      {
+        "title": "Ihr Dip",
+        "isOpen": false,
+        "items": [
+          "cat11-7",
+          "cat11-8",
+          "cat11-9",
+          "cat11-10",
+          "cat11-11",
+          "cat11-12",
+          "cat11-13"
+        ]
+      }
+    ],
+    "price": "3,40"
+  },
+  {
+    "id": "cat11-6",
+    "title": "Zwiebelringe (8 Stück)",
+    "titleHtml": "Zwiebelringe (8 Stück)",
+    "description": "mit einem Dip nach Wahl",
+    "descriptionHtml": "mit einem Dip nach Wahl",
+    "additionalInformation": "",
+    "additives": [
+      "1"
+    ],
+    "allergens": [
+      "A"
+    ],
+    "options": [
+      {
+        "title": "Ihr Dip",
+        "isOpen": false,
+        "items": [
+          "cat11-7",
+          "cat11-8",
+          "cat11-9",
+          "cat11-10",
+          "cat11-11",
+          "cat11-12",
+          "cat11-13"
+        ]
+      }
+    ],
+    "price": "5,30"
+  },
+  {
+    "id": "cat11-7",
+    "title": "Ketchup",
+    "titleHtml": "Ketchup",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "2"
+    ],
+    "allergens": [],
+    "options": [],
+    "price": "0,50"
+  },
+  {
+    "id": "cat11-8",
+    "title": "Mayonnaise",
+    "titleHtml": "Mayonnaise",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "2"
+    ],
+    "allergens": [
+      "G"
+    ],
+    "options": [],
+    "price": "0,50"
+  },
+  {
+    "id": "cat11-9",
+    "title": "Süß-Sauer-Dip",
+    "titleHtml": "Süß-Sauer-Dip",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "2"
+    ],
+    "allergens": [
+      "A",
+      "G"
+    ],
+    "options": [],
+    "price": "0,50"
+  },
+  {
+    "id": "cat11-10",
+    "title": "Barbecue-Dip",
+    "titleHtml": "Barbecue-Dip",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "13"
+    ],
+    "allergens": [],
+    "options": [],
+    "price": "0,50"
+  },
+  {
+    "id": "cat11-11",
+    "title": "Mango-Dip",
+    "titleHtml": "Mango-Dip",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "1",
+      "2",
+      "9"
+    ],
+    "allergens": [],
+    "options": [],
+    "price": "0,50"
+  },
+  {
+    "id": "cat11-12",
+    "title": "Aioli-Dip",
+    "titleHtml": "Aioli-Dip",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [
+      "3",
+      "9"
+    ],
+    "allergens": [
+      "C",
+      "G"
+    ],
+    "options": [],
+    "price": "0,50"
+  },
+  {
+    "id": "cat11-13",
+    "title": "Creme Fraiche-Dip",
+    "titleHtml": "Creme Fraiche-Dip",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "",
+    "additives": [],
+    "allergens": [
+      "G"
+    ],
+    "options": [],
+    "price": "0,50"
+  },
+  {
+    "id": "cat12-0",
+    "title": "Coca Cola 1,0l",
+    "titleHtml": "Coca Cola 1,0l",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "Enthält Koffein (10,0 mg/100 ml), inkl. Pfand (0,15), 2,90/l, 1,0l",
+    "additives": [
+      "1",
+      "10"
+    ],
+    "allergens": [],
+    "options": [],
+    "price": "2,90"
+  },
+  {
+    "id": "cat12-1",
+    "title": "Coca Cola light 1,0l",
+    "titleHtml": "Coca Cola light 1,0l",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "Enthält Koffein (12,0 mg/100 ml), inkl. Pfand (0,15), 2,90/l, 1,0l",
+    "additives": [
+      "1",
+      "9",
+      "10"
+    ],
+    "allergens": [],
+    "options": [],
+    "price": "2,90"
+  },
+  {
+    "id": "cat12-2",
+    "title": "Fanta 1,0l",
+    "titleHtml": "Fanta 1,0l",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "inkl. Pfand (0,15), 2,90/l, 1,0l",
+    "additives": [
+      "1",
+      "10",
+      "14"
+    ],
+    "allergens": [],
+    "options": [],
+    "price": "2,90"
+  },
+  {
+    "id": "cat12-3",
+    "title": "Sprite 1,0l",
+    "titleHtml": "Sprite 1,0l",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "inkl. Pfand (0,15), 2,90/l, 1,0l",
+    "additives": [
+      "1",
+      "14"
+    ],
+    "allergens": [],
+    "options": [],
+    "price": "2,90"
+  },
+  {
+    "id": "cat12-4",
+    "title": "Eistee Pfirsich 1,0l",
+    "titleHtml": "Eistee Pfirsich 1,0l",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "Enthält Koffein (25,0 mg/100 ml), inkl. Pfand (0,25), 2,08/l, 1,5l",
+    "additives": [
+      "1",
+      "4",
+      "9",
+      "10"
+    ],
+    "allergens": [],
+    "options": [],
+    "price": "3,00"
+  },
+  {
+    "id": "cat12-5",
+    "title": "Eistee Zitrone 1,0l",
+    "titleHtml": "Eistee Zitrone 1,0l",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "Enthält Koffein (25,0 mg/100 ml), inkl. Pfand (0,25), 2,08/l, 1,5l",
+    "additives": [
+      "1",
+      "4",
+      "9",
+      "10"
+    ],
+    "allergens": [],
+    "options": [],
+    "price": "3,00"
+  },
+  {
+    "id": "cat12-6",
+    "title": "Mineralwasser 1,0l",
+    "titleHtml": "Mineralwasser 1,0l",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "inkl. Pfand (0,15), 2,50/l, 1,0l",
+    "additives": [],
+    "allergens": [],
+    "options": [],
+    "price": "2,50"
+  },
+  {
+    "id": "cat13-0",
+    "title": "Kindl 0,5l",
+    "titleHtml": "Kindl 0,5l",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "38% vol, inkl. Pfand (0,08), 4,92/l, 0,5l",
+    "additives": [],
+    "allergens": [
+      "O"
+    ],
+    "options": [],
+    "price": "2,50"
+  },
+  {
+    "id": "cat13-1",
+    "title": "Berliner 0,5l",
+    "titleHtml": "Berliner 0,5l",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "38% vol, inkl. Pfand (0,08), 4,92/l, 0,5l",
+    "additives": [],
+    "allergens": [
+      "O"
+    ],
+    "options": [],
+    "price": "2,50"
+  },
+  {
+    "id": "cat13-2",
+    "title": "Erdinger Hefe 0,5l",
+    "titleHtml": "Erdinger Hefe 0,5l",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "38% vol, inkl. Pfand (0,08), 4,92/l, 0,5l",
+    "additives": [],
+    "allergens": [
+      "O"
+    ],
+    "options": [],
+    "price": "2,50"
+  },
+  {
+    "id": "cat13-3",
+    "title": "Erdinger Kristall 0,5l",
+    "titleHtml": "Erdinger Kristall 0,5l",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "38% vol, inkl. Pfand (0,08), 4,92/l, 0,5l",
+    "additives": [],
+    "allergens": [
+      "O"
+    ],
+    "options": [],
+    "price": "2,50"
+  },
+  {
+    "id": "cat13-4",
+    "title": "Beck's 0,5l",
+    "titleHtml": "Beck's 0,5l",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "5% vol, inkl. Pfand (0,08), 4,92/l, 0,5l",
+    "additives": [],
+    "allergens": [],
+    "options": [],
+    "price": "2,50"
+  },
+  {
+    "id": "cat13-5",
+    "title": "Jägermeister 0,1l",
+    "titleHtml": "Jägermeister 0,1l",
+    "description": "",
+    "descriptionHtml": "",
+    "additionalInformation": "40,0% vol, 4,70/l, 1,0l",
+    "additives": [],
+    "allergens": [
+      "O"
+    ],
+    "options": [],
+    "price": "4,70"
+  }
+]

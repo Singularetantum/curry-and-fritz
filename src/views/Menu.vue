@@ -1,75 +1,79 @@
 <template>
   <div class="b-menu">
-
-    <div class="category-nav">
+    <nav class="category-nav" aria-label="Navigationsmenü">
       <ul class="list">
         <li v-for="category in menu" :key="category.id">
           <a :href="`#${category.id}`">{{ category.title }}</a>
         </li>
       </ul>
-    </div>
+    </nav>
 
     <div class="categories">
+      <h1><span>Speisekarte</span></h1>
+
       <div class="delivery-info">
-        <h2><span>Curry</span> and <span>Fritz</span></h2>
         <p>
           Wir liefern innerhalb von 5km ab einem Mindestbestellwert von 14,90 €.<br>
           Bei Abholung gelten unsere günstigeren Preise vor <a href="/#address" title="Adresse">Ort</a>.
         </p>
         <opening-hours></opening-hours>
       </div>
-      <div v-for="category in menu"
-        :key="category.id"
-        :class="{ 'is-open': category.isOpen }"
-        class="category b-collapsible"
-        :id="category.id">
-        <h3 class="title" v-on:click="toggleOpen(category)" v-html="category.titleHtml"></h3>
-        <p class="category-desc" v-html="category.descriptionHtml"></p>
-        <ul :id="`${category.id}-list`" class="list body">
-          <li v-for="item in category.items" :key="item.id" itemscope="" itemtype="http://schema.org/Product">
-      			<span class="offers" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
-      				<span class="price" itemprop="price">{{ item.price }} €</span>
-      			</span>
-            <div class="details">
-              <b itemprop="name" v-html="item.titleHtml"></b>
-              <br>
-              <p class="item-desc" itemprop="description" v-html="item.descriptionHtml"></p>
-              <div class="allergens"
-                title="Weitere Produktinformationen"
-                v-on:click="openAllergens(item)"
-                :data-name="item.title"
-                :data-allergens="item.allergens"
-                :data-additives="item.additives">
-                Weitere Produktinformationen
+
+      <div id="menu" ref="menu">
+        <div v-for="category in menu"
+          :key="category.id"
+          :class="{ 'is-open': category.isOpen }"
+          class="category b-collapsible"
+          :id="category.id">
+          <button :id="`${category.id}-toggle`" class="accordion-toggle" :aria-expanded="category.isOpen ? 'true' : 'false'" :aria-controls="`${category.id}-list`" v-on:click="toggleOpen(category)">
+            <h2 class="title" v-html="category.titleHtml"></h2>
+          </button>
+          <p class="category-desc" v-html="category.descriptionHtml"></p>
+          <ul :id="`${category.id}-list`" :aria-labelledby="`${category.id}-toggle`" class="list body" role="region">
+            <li v-for="item in category.items" :key="item.id" itemscope="" itemtype="http://schema.org/Product">
+              <span class="offers" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+                <span class="price" itemprop="price">{{ item.price }} €</span>
+              </span>
+              <div class="actions">
+                <button class="add" v-on:click="addToCart(item)">in den Warenkorb</button>
               </div>
-            </div>
-          </li>
-        </ul>
+              <div class="details">
+                <b itemprop="name" v-html="item.titleHtml"></b>
+                <br>
+                <p class="item-desc" itemprop="description" v-html="item.descriptionHtml"></p>
+                <button class="allergens"
+                  title="Weitere Produktinformationen"
+                  v-on:click="openAllergens($event, item)"
+                  :data-name="item.title"
+                  :data-allergens="item.allergens"
+                  :data-additives="item.additives">
+                  Weitere Produktinformationen
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
-    <div v-if="allergens.isOpen" class="allergens-popup">
-      <span class="close" v-on:click="allergens.isOpen = false">schließen</span>
-      <h3 class="title">{{ allergens.currItem.title }}</h3>
-      <div class="scroll-wrapper">
+    <modal v-if="allergens.isOpen" @close="allergens.isOpen = false" :title="allergens.currItem.title" :focusAfterClosed="allergens.focusAfterClosed">
         <div v-if="allergens.currItem.allergens.length" class="">
-          <h3>{{ allergens.allergens.title }}</h3>
-          <ul class="list body">
-            <li v-for="allergen in allergens.allergens.items.filter((item => allergens.currItem.allergens.includes(item.id)))" :key="allergen.id">
-              {{ allergen.title }}
-            </li>
-          </ul>
-        </div>
-        <div v-if="allergens.currItem.additives.length" class="">
-          <h3>{{ allergens.additives.title }}</h3>
-          <ul class="list body">
-            <li v-for="additive in allergens.additives.items.filter((item => allergens.currItem.additives.includes(item.id)))" :key="additive.id">
-              {{ additive.title }}
-            </li>
-          </ul>
-        </div>
+        <h3>{{ allergens.allergens.title }}</h3>
+        <ul class="list body">
+          <li v-for="allergen in allergens.allergens.items.filter((item => allergens.currItem.allergens.includes(item.id)))" :key="allergen.id">
+            {{ allergen.title }}
+          </li>
+        </ul>
       </div>
-    </div>
+      <div v-if="allergens.currItem.additives.length" class="">
+        <h3>{{ allergens.additives.title }}</h3>
+        <ul class="list body">
+          <li v-for="additive in allergens.additives.items.filter((item => allergens.currItem.additives.includes(item.id)))" :key="additive.id">
+            {{ additive.title }}
+          </li>
+        </ul>
+      </div>
+    </modal>
   </div>
 </template>
 
@@ -77,27 +81,73 @@
 import OpeningHours from '../components/OpeningHours.vue';
 import Menu from '../assets/data/menu.json';
 import Allergens from '../assets/data/allergens.json';
+import Modal from '../components/Modal.vue';
 
 export default {
   name: 'Menu',
   components: {
     'opening-hours': OpeningHours,
+    modal: Modal,
   },
   data() {
     return {
+      search: '',
       menu: Menu,
       allergens: Allergens,
     };
   },
+  computed: {
+    filteredItems() {
+      return this.menu.filter(item => item.title.toLowerCase().indexOf(this.search.toLowerCase()) > -1);
+    }
+  },
+  mounted() {
+    const triggers = Array.prototype.slice.call(this.$refs.menu.querySelectorAll('.accordion-toggle'));
+
+    this.$refs.menu.addEventListener('keydown', event => {
+      const target = event?.target;
+      const key = event?.which?.toString();
+      const ctrlModifier = (event.ctrlKey && key.match(/33|34/));
+
+      if (target.classList.contains('accordion-toggle')) {
+        if (key.match(/38|40/) || ctrlModifier) {
+          const index = triggers.indexOf(target);
+          const direction = (key.match(/34|40/)) ? 1 : -1;
+          const length = triggers?.length;
+          const newIndex = (index + length + direction) % length;
+
+          triggers[newIndex].focus();
+
+          event.preventDefault();
+        } else if (key.match(/35|36/)) {
+          switch (key) {
+            case '36':
+              triggers[0].focus();
+              break;
+            case '35':
+              triggers[triggers.length - 1].focus();
+              break;
+            default:
+          }
+          event.preventDefault();
+        }
+      }
+    });
+  },
   methods: {
-    openAllergens(item) {
+    openAllergens(event, item) {
+      this.allergens.focusAfterClosed = event.target;
       this.allergens.currItem = item;
       this.allergens.isOpen = true;
     },
     toggleOpen(item) {
       const itemBodyEl = document.getElementById(`${item.id}-list`);
       item.isOpen = !item.isOpen;
+      itemBodyEl.style.display = item.isOpen ? 'block' : 'none';
       itemBodyEl.style.height = item.isOpen ? `${itemBodyEl.scrollHeight}px` : '0';
+    },
+    addToCart(item) {
+      this.$store.commit('cart/addProductToCart', item);
     },
   },
 };
@@ -117,68 +167,6 @@ export default {
 
     margin-top: 60px;
     padding: 0 20px;
-
-    .allergens-popup {
-      @include breakpoint(medium) {
-        top: 50%;
-        left: 50%;
-        max-height: 80%;
-        width: 50%;
-        padding: 20px;
-        transform: translate(-50%, -50%);
-        background: rgba(80, 80, 80, 0.9);
-        border: 1px solid #fff;
-      }
-
-      overflow: hidden;
-      position: fixed;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      z-index: 2;
-      height: 100%;
-      width: 100%;
-      padding: 10px;
-      background: rgba(80, 80, 80, 1);
-      color: #fff;
-
-      > .title {
-        font-weight: 900;
-      }
-
-      .close {
-        @include breakpoint(medium) {
-          top: 20px;
-          right: 20px;
-        }
-
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        cursor: pointer;
-
-        &:hover {
-          @include breakpoint(medium) {
-            transform: scale(1.1);
-          }
-        }
-      }
-
-      .scroll-wrapper {
-        overflow-x: hidden;
-        overflow-y: auto;
-        height: calc(100% - 60px);
-        border-top: 2px solid #999;
-
-        h3 {
-          @include breakpoint(medium) {
-            font-size: unset;
-          }
-
-          font-size: 16px;
-        }
-      }
-    }
 
     .category-nav {
       @include breakpoint(medium) {
@@ -213,7 +201,24 @@ export default {
     }
 
     .category {
+      border-top: 1px solid #333;
+      padding: 20px 0 0 0;
+
+      .accordion-toggle {
+        display: block;
+        width: 100%;
+        text-align: unset;
+
+        &:focus,
+        &:hover {
+          .title {
+            text-decoration: underline;
+          }
+        }
+      }
+
       .title {
+        font-size: 1.17em;
         margin: 0;
       }
 
@@ -224,9 +229,12 @@ export default {
 
         > li {
           display: flex;
-          border-bottom: 1px solid #333;
           padding: 10px 0;
           flex-flow: column-reverse;
+
+          &:not(:last-of-type) {
+            border-bottom: 1px solid #333;
+          }
         }
 
         .offers {
@@ -248,7 +256,10 @@ export default {
       font-size: 14px;
       cursor: pointer;
 
+      &:focus,
       &:hover {
+        text-decoration: underline;
+
         &:before {
           transform: translateX(5px);
         }
@@ -260,6 +271,10 @@ export default {
         margin-right: 5px;
         transition: transform .3s;
       }
+    }
+
+    .add {
+      display: none;
     }
   }
 </style>

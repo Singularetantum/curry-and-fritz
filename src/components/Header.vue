@@ -1,5 +1,6 @@
 <template>
   <header class="b-header">
+    <nav aria-label="Hauptnavigation">
       <ul class="nav">
           <li>
               <router-link to="/" title="Home">Home</router-link>
@@ -11,6 +12,7 @@
               <router-link to="/imprint" title="Impressum">Impressum</router-link>
           </li>
       </ul>
+    </nav>
   </header>
 </template>
 

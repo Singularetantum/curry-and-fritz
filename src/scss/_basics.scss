@@ -30,6 +30,10 @@ html {
 a {
     color: $link-color-01;
 
+    &:focus {
+        text-decoration: underline;
+    }
+
     &:visited {
         color: $link-color-01;
     }
@@ -243,4 +247,32 @@ main {
     }
 
     width: 100%;
+}
+
+/**
+ * Misc
+ */
+
+.sr-only {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    clip-path: inset(50%) !important;
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+    white-space: nowrap !important;
+}
+
+.visible-on-focus:focus,
+.visible-on-focus:active {
+    clip: auto !important;
+    clip-path: none !important;
+    height: auto !important;
+    margin: auto !important;
+    overflow: visible !important;
+    width: auto !important;
+    white-space: normal !important;
 }

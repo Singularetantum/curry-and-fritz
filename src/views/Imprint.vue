@@ -3,11 +3,11 @@
     <div class="sections">
       <section class="section">
         <div>
-          <h2>
-            <span>Curry</span> & <span>Fritz</span>
-          </h2>
+          <h1>
+            <span>Impressum</span>
+          </h1>
           <br>
-          <h3>Angaben gemäß § 5 TMG</h3>
+          <h2>Angaben gemäß § 5 TMG</h2>
           <p>Thi Anh Dao Nguyen<br>
             Hermann-Hesse-Str. 12<br>
             13156 Berlin<br>
@@ -16,7 +16,7 @@
             Tel.: 030 / 27498441<br>
             E-Mail: <a href="mailto:mail@curry-and-fritz.de">mail@curry-and-fritz.de</a></p>
           <br>
-          <h3>Umsatzsteuer-Identifikationsnummer gemäß §27 A Umsatzsteuergesetz</h3>
+          <h2>Umsatzsteuer-Identifikationsnummer gemäß §27 A Umsatzsteuergesetz</h2>
           <p>USt.-IdNr.: 35/455/01517<br>
             Plattform der EU-Kommission zur Online-Streitbeilegung: <a rel="nofollow" target="_blank" href="https://ec.europa.eu/consumers/odr">https://ec.europa.eu/consumers/odr</a>.
           </p>

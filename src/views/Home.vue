@@ -2,7 +2,7 @@
   <div class="b-home">
     <section class="teaser">
       <div class="logo-wrapper">
-        <span class="logo"></span>
+        <h1 class="logo"><span class="sr-only">Curry and Fritz</span></h1>
       </div>
       <div class="delivery">
         <h2><span>Imbiss</span> und <span>Lieferservice</span> Berlin</h2>
@@ -83,9 +83,9 @@
 
           <div id="opening-hours">
             <h2><span>Öffnungszeiten</span></h2>
-            <h4>Dienstag bis Sonntag</h4>
+            <h3>Dienstag bis Sonntag</h3>
             <p>11:00 - 22:00</p>
-            <h4>Montag</h4>
+            <h3>Montag</h3>
             <p>Geschlossen</p>
           </div>
         </div>
@@ -131,7 +131,7 @@ export default {
       @include breakpoint(medium) {
         top: 50%;
         left: 80px;
-        font-size: 2em;
+        font-size: 2rem;
         text-align: left;
       }
 
@@ -139,8 +139,8 @@ export default {
       top: 60%;
       right: 10px;
       left: 10px;
-      font-size: 1.5em;
-      line-height: 1em;
+      font-size: 1.5rem;
+      line-height: 1rem;
       text-align: center;
       text-transform: uppercase;
       text-shadow: 0 0 30px #000;
@@ -169,7 +169,7 @@ export default {
         margin: 40px 0 0;
         font-size: 30px;
         font-weight: 900;
-        line-height: 1em;
+        line-height: 1rem;
         text-decoration: none;
       }
     }
@@ -192,19 +192,10 @@ export default {
       transform: rotateZ(10deg);
 
       .logo {
-        @include breakpoint(medium) {
-          width: 12em;
-          height: 12em;
-        }
-
-        @media screen and (min-height: 600px) {
-          width: 12em;
-          height: 12em;
-        }
-
         display: inline-block;
-        width: 6em;
-        height: 6em;
+        width: 19rem;
+        height: 19rem;
+        margin: 0;
         background: url('/img/logo.png');
         background-size: contain;
         background-repeat: no-repeat;
