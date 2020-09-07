@@ -1,21 +1,18 @@
-import products from '/assets/data/products.json';
+import productsData from '../../assets/data/products.json';
 
 const productsModule = {
   namespaced: true,
   state: {
-    all: [],
+    all: productsData,
   },
   getters: {
 
   },
   actions: {
-    getAll({ commit }) {
-      commit('setProducts', products)
-    }
   },
   mutations: {
     set(state, products) {
-      state.all = products
+      state.all = products;
     },
   },
 };
