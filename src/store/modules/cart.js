@@ -6,10 +6,10 @@ const cartModule = {
   getters: {
     cartProducts(state, getters, rootState) {
       return state.items.map(({ id, quantity }) => {
-        const product = rootState.products.all.find(product => product.id === id);
+        const cartProducts = rootState.products.all.find(product => product.id === id);
         return {
-          title: product.title,
-          price: product.price,
+          title: cartProducts.title,
+          price: cartProducts.price,
           quantity,
         };
       });
